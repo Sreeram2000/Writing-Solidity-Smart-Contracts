@@ -2,7 +2,8 @@ pragma solidity 0.5.1;
 
 contract myContract {
     
-    //Example 1 : Basic syntax.
+    
+    /*****************************************/
     
     string public value;
     
@@ -10,7 +11,7 @@ contract myContract {
         value = value1;
     }
     
-    //Example 2 : modifiers and access specifiers (Unix Epoch Clock).
+    /*****************************************/
 
     address owner;
 
@@ -47,6 +48,4 @@ contract myContract {
         incrementCount();
         people[peopleCount] = Person(peopleCount,_firstname,_lastname);
     }
-
-
 }
